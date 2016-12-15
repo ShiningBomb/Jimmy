@@ -9,13 +9,13 @@ namespace Jimmy.SampleAlgorithms
 {
     public class CMAESAlgorithm : IAlgorithm
     {
-        public CMAESAlgorithm(EvaluationHelper evalHelper, string taskType)
+        public CMAESAlgorithm(Jimmy evalHelper, string taskType)
         {
             this.evalHelper = evalHelper;
             this.taskType = taskType;
         }
 
-        private EvaluationHelper evalHelper;
+        private Jimmy evalHelper;
         private string taskType;
 
         public void Run()

@@ -6,7 +6,7 @@ using System.ComponentModel;
 
 namespace Jimmy
 {
-    public class EvaluationHelper
+    public class Jimmy
     {
         //Objective:
         //accomodate algorithms to easily evaluate floating number without considering other things.
@@ -18,7 +18,7 @@ namespace Jimmy
         //5.firing result to the UI
         //6.knows whether user hit stop button 
 
-        public EvaluationHelper(IEvaluator evaluator, List<Parameter> parameters)
+        public Jimmy(IEvaluator evaluator, List<Parameter> parameters)
         {
             this.evaluator = evaluator;
             this.parameters = parameters;

@@ -51,7 +51,7 @@
     <Compile Include="EventArgs\OptimizationCompleteEventArgs.cs" />
     <Compile Include="Parameter.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="EvaluationHelper.cs" />
+    <Compile Include="Jimmy.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\CMAESharp\CMAESharp\CMAESharp.csproj">

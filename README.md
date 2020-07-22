@@ -1,7 +1,7 @@
 # Stair2Slide
 An AI optimization helper library.
 
-Many optimization algorithms are built for continous numerical parameters. It is non-trivial to define text as parameter, or a list of options to choose from, or complex formulas (eg. one parameter that tied with another), with Stair2Slide you can have all of those without changing any of your optimization algorithm.
+Many of optimization algorithms are built for continous numerical parameters. It is non-trivial to define text as parameter, or a list of options to choose from, or complex formulas (eg. one parameter that tied with another), with Stair2Slide you can have all of those without changing any of your optimization algorithm.
 
 ### Main features ###
 * Easily use candidate values and formulas instead of min, max, and resolution for each parameter.
